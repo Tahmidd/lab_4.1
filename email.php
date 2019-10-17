@@ -16,7 +16,7 @@ echo $email;
 				<legend><b>Email</b></legend>
 				<table border="0" >	
 					<tr>
-					<input type="email" name="email" <?php echo $email;?> />
+					<input type="email" name="email" value="<?php echo $email;?>" />
 				<?php echo $email;?>
 				
 					

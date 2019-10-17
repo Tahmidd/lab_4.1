@@ -17,7 +17,7 @@ echo $name;
 				<legend><b>name</b></legend>
 				<table border="0" >	
 					<tr>
-					<input type="text" name="name" <?php echo $name;?>/>
+					<input type="text" name="name" value="<?php echo $name;?>"/>
 					<?php
 					echo $name;
 					?>

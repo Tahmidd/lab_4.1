@@ -16,7 +16,7 @@ echo $dob;
 				<legend><b>DOB</b></legend>
 				<table border="0" >	
 					<tr>
-					<input type="date" name="date" <?php echo $dob;?>/>
+					<input type="date" name="date" value="<?php echo $dob;?>"/>
 					<?php echo $dob;?>
 				</tr>
 				</tr>
